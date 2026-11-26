@@ -1,26 +1,86 @@
-# sesion-01
+### Tarea 01
 
-2026-08-13
+\> Modificar el repositorio “Gatos” para identificar y modificar al menos 6 gestos
 
-presentación del curso
+\> Pueden ser memes de gatos u otras imágenes
 
-fenómeno físico ≠ experiencia perceptual
+\> Cargar los archivos nuevos a un repo
 
-conceptos importantes:
+\> Editar el [README.md](http://README.md) indicando los cambios (fotos, gestos, programas)
 
-1. fenómeno: temperatura, presión, luz
-2. percepción: la capacidad que posee un organismo de poder relacionarse con un fenómeno
-3. representación: la descripción que construimos
-4. interpretación: que es lo que rescatamos de esa información
+\> Cargar un video de al menos 30 segundos con el sistema funcionando 
 
-![como los humanos y las abejas ven las flores](./img/percepcion-flor.png)
-esta sigue siendo una imagen antropocentrista, es **como los humanos creemos que ven las abejas**.
+### 
 
-## relevante
+### Inteligencia artificial
 
-- [Antropocentrismo](https://es.wikipedia.org/wiki/Antropocentrismo)
-- [Semiótica](https://es.wikipedia.org/wiki/Semiolog%C3%ADa)
-- [Meta glasses y el acoso callejero](https://elpais.com/tecnologia/2026-07-31/gafas-de-pervertido-meta-ya-no-sabe-como-frenar-las-burlas-y-recelos-hacia-su-producto-estrella.html)
-- [Centros de datos en Quilicura y el uso del agua](https://radio.uchile.cl/2026/03/04/el-agua-que-usa-la-ia-es-chilena-vecinos-de-quilicura-alegan-falta-de-responsabilidad-de-data-centers/)
-- Merleau-Ponty, M. Prólogo de Fenomenología de la percepción. Barcelona: Planeta-De Agostini, 1993.
-- Winner, L. "¿Tienen política los artefactos?", en La ballena y el reactor. Barcelona: Gedisa, 1987.
+Desde 1956
+
+Los motores de IA aprenden a través de un proceso de machine learning (deep learning)  
+![][image1]  
+La IA busca lo que es MÁS probable.
+
+Quieren responder, no necesariamente lo más veráz
+
+Hipnocracia \- Jianwei Xun \> Filósofo que nunca existió alimentado a la inteligencia artificial
+
+Bixonimanía \> Enfermedad falsa alimentada a la inteligencia artificial
+
+#### Conflicto medioambiental
+
+Data centers arruinando comunidades  
+En Chile tenemos los más grandes de Latinoamérica (Quilicura (398 millones de litros de agua, Cerrillos..)
+
+#### Conflicto laboral
+
+#### Conflicto del sesgo
+
+Político, social, etc
+
+### Alucinaciones de la IA
+
+#### Factual
+
+Datos incorrectos
+
+#### Referencial
+
+Citas inexistentes
+
+#### Extrapolación
+
+Completa información solo por completar
+
+### LLM (Large language model)
+
+Generación de lenguaje
+
+### IA de contexto acotado
+
+NotebookLM
+
+Claude Cowork
+
+Consensus
+
+Sci bot
+
+Codex
+
+Antigravity
+
+Kimi
+
+ContextoRolExpectativaAcotación
+
+ *from google.colab import files*  
+*uploaded \= files.upload()*
+
+*for filename in uploaded:*  
+ *content \= uploaded\[brooke-cagle-mt2fyrdXxzk-unsplash\]*  
+*with open(brooke-cagle-mt2fyrdXxzk-unsplash, 'wb') as f:*  
+*f.write(content)*
+
+*if len(uploaded.keys()):*  
+*IMAGE\_FILE \= next(iter(uploaded))*  
+*print('Uploaded file:', IMAGE\_FILE)*
