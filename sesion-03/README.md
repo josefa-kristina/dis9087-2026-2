@@ -1,70 +1,86 @@
-# sesion-03
+### Tarea 01
 
-2026-08-27
+\> Modificar el repositorio “Gatos” para identificar y modificar al menos 6 gestos
 
-Hoy los estudiantes debían llegar con el programa de *gatos* funcionando en su computador.
+\> Pueden ser memes de gatos u otras imágenes
 
-## cátedra
+\> Cargar los archivos nuevos a un repo
 
-Hablamos sobre los sesgos, la investigación y los peligros de la IA.
+\> Editar el [README.md](http://README.md) indicando los cambios (fotos, gestos, programas)
 
-### alucinaciones
+\> Cargar un video de al menos 30 segundos con el sistema funcionando 
 
-las inteligencias artificiales pueden llegar a afirmar datos no certeros. Esto suele suceder cuando la ventana de contexto llega el límite. Se puede entender como que superamos su capacidad de procesamiento.
+### 
 
-Dado que la tarea principal del modelo es **responder**, en vez de decirte que no está capacitado para responderte, inventa.
+### Inteligencia artificial
 
-#### factual
+Desde 1956
 
-cuando la ia afirma datos incorrectos
+Los motores de IA aprenden a través de un proceso de machine learning (deep learning)  
+![][image1]  
+La IA busca lo que es MÁS probable.
 
-#### referencial
+Quieren responder, no necesariamente lo más veráz
 
-cuando inventa referencias, links, etc.
+Hipnocracia \- Jianwei Xun \> Filósofo que nunca existió alimentado a la inteligencia artificial
 
-#### extrapolación
+Bixonimanía \> Enfermedad falsa alimentada a la inteligencia artificial
 
-cuando le falta información para entender el contexto, y rellena con información inventada.
+#### Conflicto medioambiental
 
-### Modelos
+Data centers arruinando comunidades  
+En Chile tenemos los más grandes de Latinoamérica (Quilicura (398 millones de litros de agua, Cerrillos..)
 
-#### LLM
+#### Conflicto laboral
 
-Large Language Models. Máquinas de procesamiento y generación de lenguaje. Viven en internet y son capaces de tomar información de fuentes externas.
+#### Conflicto del sesgo
 
-- Generación
-- Comprensión
-- Transformación
-- Razonamiento
-- Conversación
+Político, social, etc
 
-#### LLM de contexto acotado
+### Alucinaciones de la IA
 
-Son aquellas que principalmente se alimentan del contexto que el usuario provee.
+#### Factual
 
-- Notebook LM
-- Consensus
-- Claude Cowork
-- sci bot
-- antigravity
+Datos incorrectos
 
-### ¿cómo le hablo a la IA?
+#### Referencial
 
-**C. R. E. A.**
+Citas inexistentes
 
-- Contexto
-- Rol (cuáles son las tareas específicas que debería saber)
-- Expectativa (qué es lo que yo espero que tenga como output)
-- Acotación (extras, por ejemplo, antes de responder que te explique qué va a hacer, o que te haga preguntas respecto a información faltante)
+#### Extrapolación
 
-## trabajo en clase
+Completa información solo por completar
 
-deben modificar el proyecto para que utilicen imágenes elegidas por ustedes, y utilizando gestos nuevos.
+### LLM (Large language model)
 
-mediaPipe puede medir:
+Generación de lenguaje
 
-- manos
-- expresión facial
-- cuerpo
+### IA de contexto acotado
 
-se pueden repetir hasta 2 gestos y hasta 2 imágenes.
+NotebookLM
+
+Claude Cowork
+
+Consensus
+
+Sci bot
+
+Codex
+
+Antigravity
+
+Kimi
+
+ContextoRolExpectativaAcotación
+
+ *from google.colab import files*  
+*uploaded \= files.upload()*
+
+*for filename in uploaded:*  
+ *content \= uploaded\[brooke-cagle-mt2fyrdXxzk-unsplash\]*  
+*with open(brooke-cagle-mt2fyrdXxzk-unsplash, 'wb') as f:*  
+*f.write(content)*
+
+*if len(uploaded.keys()):*  
+*IMAGE\_FILE \= next(iter(uploaded))*  
+*print('Uploaded file:', IMAGE\_FILE)*
