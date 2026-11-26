@@ -2,7 +2,125 @@
 
 2026-10-22
 
-Hoy tuvimos la visita de Matías Pezoa, diseñador egresado de la Escuela de Diseño UDP. Actualmente se especializa en el diseño de moda y tecnología.
+Invitado: Alumni UDP Matías Pezoa
+
+Creo que vino de invitado el 2024 a la clase de Matías Hernan 
+
+Diseñador industrial \- Magister ciencias del diseño \- Docente en moda
+
+Moda \+ tecnología
+
+Audacia \- Motor de cambio, valentía y ansiedad  
+Rigor \- Cuidado a las cosas, compromiso y exigencia  
+Innovación \- Observación, curiosidad y disconformidad.
+
+Papá sastre 
+
+Practicante de Matías Hernán \> Trabaja en Matías Hernán
+
+Neo lycra 
+
+Patronaje paramétrico, trabaja en rhino moda what
+
+Retroiluminación, programado para reaccionar a la música
+
+Estudió con Ignacio Lechuga
+
+Sistema paramétrico de construcción de patrones base.  
+Plataforma paramétrico para impresión textil y corte laser
+
+Atlas de notas de salida de perfumes
+
+Ama la IA GENERATIVA…
+
+Vértigo- Mundo muy vertiginoso  
+Mutación ontológica
+
+Julia Koerner resina sobre textiles…
+
+AI fashion week TERRIBLE 
+
+El cuerpo como interfaz
+
+Behnaz Farahi 
+
+CuteCircuit
+
+Frecuencia es distinta a la altura de la onda
+
+El usuario crea la experiencia
+
+Escuchar es una decision de atención, medir no es escuchar
+
+### Sonido como material
+
+### Forma de onda
+
+La geometría de la señal define su aspecto.
+
+Como estamos en un medio digital podemos distorsionar las ondas.
+
+#### Seno: 
+
+Una solo frecuencia, sonido puro
+
+#### Cuadrada
+
+Solo armónicos impares, sonido hueco electronico
+
+#### Triangular
+
+Impares que se debilitan rápido, suave
+
+#### Sierra
+
+Cuadrada \+ triangular  
+ Todos los brillantes
+
+#### Envolvente ADSR
+
+Attack \- Decay \- Sustain \- Release 
+
+#### Notas
+
+Convención de una frecuencia en Hz
+
+La \= 440 Hz
+
+#### Filtros
+
+##### Pasa-bajos: 
+
+Deja pasar las bajas
+
+##### Pasa-altos:
+
+Deja pasar las altas
+
+##### Pasa banda
+
+##### Rechaza banda
+
+### Antecedentes
+
+#### Theremin 1920
+
+#### Tocar sin tocar 
+
+#### 
+
+#### Videoplace 70-80s
+
+#### 
+
+#### Very nervous system
+
+#### 
+
+#### Messa di voce
+
+Del oscilador a cualquier sonido  
+La misma regla puede disparar distintas grabaciones
 
 ## links
 
