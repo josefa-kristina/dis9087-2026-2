@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Josefa Araya — Portafolio de Diseño</title>
+  <meta name="description" content="Portafolio de Josefa Araya, estudiante de Diseño con mención en Sistema Moda (UDP). Diseño industrial, moda e interacciones digitales.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Asap:wght@400;600;900&family=Inter:wght@400;500&family=MuseoModerno:wght@700;900&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+
+  <!-- Header (Figma: Header + "Menu desplegable" + Menu) -->
+  <header class="site-header">
+    <div class="container site-header__inner">
+      <div class="menu-toggle-wrap">
+        <button class="menu-toggle" id="menuToggle" aria-label="Abrir menú" aria-expanded="false" aria-controls="mainMenu">
+          <img src="assets/figma/menu.svg" alt="" width="32" height="32">
+        </button>
+
+        <nav class="menu" id="mainMenu" aria-label="Menú principal" hidden>
+          <div class="menu__separator"><span></span></div>
+          <ul class="menu__section">
+            <li><a class="menu__item" href="#sobre-mi"><img src="assets/figma/chevrons-right.svg" alt="" width="16" height="16"><span>Sobre mi</span></a></li>
+            <li><a class="menu__item" href="#proyectos"><img src="assets/figma/chevrons-right.svg" alt="" width="16" height="16"><span>Proyectos</span></a></li>
+            <li><a class="menu__item" href="#contacto"><img src="assets/figma/chevrons-right.svg" alt="" width="16" height="16"><span>Contacto</span></a></li>
+          </ul>
+          <div class="menu__separator"><span></span></div>
+        </nav>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <!-- Hero Basic -->
+    <section class="container hero-wrap" aria-label="Presentación">
+      <div class="hero">
+        <div class="hero__bg" aria-hidden="true">
+          <img src="assets/figma/hero-metal.jpg" alt="">
+        </div>
+        <div class="hero__title">
+          <h1>Josefa Araya</h1>
+          <p class="hero__subtitle">Diseño</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- Proyectos (Figma: Card Grid Content List) -->
+    <section class="container section" id="proyectos" aria-labelledby="proyectos-title">
+      <h2 class="section__heading" id="proyectos-title">Proyectos</h2>
+      <div class="filters" role="group" aria-label="Filtrar proyectos">
+        <button class="chip is-active" data-filter="todos">Todos</button>
+        <button class="chip" data-filter="moda">Moda</button>
+        <button class="chip" data-filter="industrial">Diseño industrial</button>
+        <button class="chip" data-filter="digital">Interacción digital</button>
+      </div>
+      <div class="cards" id="cards"><!-- generado desde js/projects.js --></div>
+    </section>
+
+    <!-- Sobre mí -->
+    <section class="container section" id="sobre-mi" aria-labelledby="sobre-title">
+      <h2 class="section__heading" id="sobre-title">Sobre mi</h2>
+      <div class="about">
+        <p class="about__intro">
+          Estudiante de Diseño con mención en <strong>Sistema Moda</strong> en la Universidad Diego Portales.
+          Mi trabajo en el diseño se mueve entre el diseño industrial, de moda y también la construcción
+          de herramientas interactivas digitales.
+        </p>
+        <div class="about__lists">
+          <div>
+            <h3 class="about__h">Habilidades técnicas</h3>
+            <ul class="tags">
+              <li>Prototipado</li>
+              <li>Diseño de mobiliario</li>
+              <li>Patronaje</li>
+              <li>Confección</li>
+              <li>Interacciones digitales</li>
+            </ul>
+          </div>
+          <div>
+            <h3 class="about__h">Software</h3>
+            <ul class="tags">
+              <li>Illustrator</li>
+              <li>InDesign</li>
+              <li>AutoCAD</li>
+              <li>Rhino</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Contacto -->
+    <section class="container section" id="contacto" aria-labelledby="contacto-title">
+      <h2 class="section__heading" id="contacto-title">Contacto</h2>
+      <div class="card contact">
+        <div class="card__body">
+          <h3 class="card__title">¿Conversamos?</h3>
+          <p class="card__text">Estoy disponible para colaboraciones, prácticas y proyectos de diseño.</p>
+          <ul class="contact__list">
+            <li><span>Correo</span><a href="mailto:arayacristinajosefa@gmail.com">arayacristinajosefa@gmail.com</a></li>
+            <li><span>Instagram</span><a href="https://www.instagram.com/josefa.kristina/" target="_blank" rel="noopener">@josefa.kristina</a></li>
+          </ul>
+          <div class="btn-group">
+            <a class="btn" href="mailto:arayacristinajosefa@gmail.com">Escríbeme</a>
+            <a class="btn btn--ghost" href="https://www.instagram.com/josefa.kristina/" target="_blank" rel="noopener">Instagram</a>
+            <a class="btn btn--ghost" href="https://github.com/josefa-kristina" target="_blank" rel="noopener">GitHub</a>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container site-footer__inner">
+      <span class="site-footer__name">Josefa Araya</span>
+      <span>Diseño · Universidad Diego Portales · <span id="year"></span></span>
+    </div>
+  </footer>
+
+  <!-- Detalle de proyecto -->
+  <dialog class="project" id="projectDialog" aria-labelledby="projectTitle">
+    <div class="project__inner">
+      <button class="project__close" id="projectClose" aria-label="Cerrar">×</button>
+      <p class="project__meta" id="projectMeta"></p>
+      <h2 class="project__title" id="projectTitle"></h2>
+      <div class="project__desc" id="projectDesc"></div>
+      <div class="btn-group" id="projectLinks"></div>
+      <div class="project__media" id="projectMedia"></div>
+      <div class="project__gallery" id="projectGallery"></div>
+    </div>
+  </dialog>
+
+  <!-- Lightbox -->
+  <dialog class="lightbox" id="lightbox" aria-label="Visor de imágenes">
+    <button class="lightbox__btn lightbox__close" id="lbClose" aria-label="Cerrar">×</button>
+    <button class="lightbox__btn lightbox__prev" id="lbPrev" aria-label="Anterior">‹</button>
+    <img id="lbImg" alt="">
+    <button class="lightbox__btn lightbox__next" id="lbNext" aria-label="Siguiente">›</button>
+    <p class="lightbox__count" id="lbCount"></p>
+  </dialog>
+
+  <script src="js/projects.js"></script>
+  <script src="js/main.js"></script>
+</body>
+</html>
